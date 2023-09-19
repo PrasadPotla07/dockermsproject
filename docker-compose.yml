@@ -1,29 +1,23 @@
 version: '3'
 services:
   movies:
-    image: vinodvanama/projectmovies:latest
+    image: vishnu155/bus155:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
   train:
-    image: vinodvanama/projecttrain:latest
+    image: vishnu155/air155:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
   dth:
-    image: vinodvanama/projectdth:latest
+    image: vishnu155/metro155:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
 
-  recharge:
-    image: vinodvanama/projectrecharge:latest
-    ports:
-      - "84:80"
-    deploy:
-      replicas: 3
