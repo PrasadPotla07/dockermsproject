@@ -1,7 +1,7 @@
 version: '3'
 services:
   movies:
-    image: vishnu155/projectmovies:latest
+    image: prasadpotla/projectmovies:latest
     ports:
       - "81:80"
     deploy:
@@ -14,7 +14,7 @@ services:
     deploy:
       replicas: 3
 
-  dth:
+  bus:
     image:  prasadpotla/projectbus:latest
     ports:
       - "83:80"
