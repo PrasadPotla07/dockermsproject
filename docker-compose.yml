@@ -3,21 +3,21 @@ services:
   movies:
     image: prasadpotla/projectmovies:latest
     ports:
-      - "81:80"
+      - "84:80"
     deploy:
       replicas: 3
 
   train:
     image: prasadpotla/projecttrain:latest
     ports:
-      - "82:80"
+      - "85:80"
     deploy:
       replicas: 3
 
   bus:
     image:  prasadpotla/projectbus:latest
     ports:
-      - "83:80"
+      - "86:80"
     deploy:
       replicas: 3
 
