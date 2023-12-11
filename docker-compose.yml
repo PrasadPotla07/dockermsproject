@@ -1,7 +1,7 @@
 version: '3'
 services:
   movies:
-    image: prasadpotla/projectmovies:latest
+    image: prasadpotla/projectmoviess:latest
     ports:
       - "87:80"
     deploy:
