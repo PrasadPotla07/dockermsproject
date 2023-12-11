@@ -3,7 +3,7 @@ services:
   movies:
     image: prasadpotla/projectmovies:latest
     ports:
-      - "84:80"
+      - "87:80"
     deploy:
       replicas: 3
 
